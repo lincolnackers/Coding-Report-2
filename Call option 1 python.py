@@ -36,7 +36,7 @@ K = 0.98*S
 
 # Calculate T 
 Valuation_Date = datetime.datetime(2025, 5, 16)
-Expiration_Date = datetime.datetime(2025, 9, 15)
+Expiration_Date = datetime.datetime(2027, 9, 15)
 T = (Expiration_Date - Valuation_Date).days / 365
 
 # Calculate R 
